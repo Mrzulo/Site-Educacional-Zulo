@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Educar Juntos</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+    <h1>📚 Educar Juntos</h1>
+    <button id="menu-toggle"><i class="fas fa-bars"></i></button>
+    <nav id="menu">
+      <a href="#sobre">Sobre</a>
+      <a href="#beneficios">Benefícios</a>
+      <a href="#participar">Participe</a>
+      <a href="criadores.html">Criadores</a>
+    </nav>
+  </header>
+
+  <section id="banner">
+    <h2>Fortaleça o Futuro Participando da Educação dos Seus Filhos!</h2>
+    <button onclick="irParaFormulario()">Quero Participar</button>
+  </section>
+
+  <section id="sobre">
+    <h2><i class="fas fa-info-circle"></i> Sobre a Campanha</h2>
+    <p>A campanha <strong>Educar Juntos</strong> visa sensibilizar os encarregados de educação para a importância de sua participação ativa no processo de ensino e aprendizagem dos filhos.</p>
+  </section>
+
+  <section id="beneficios">
+    <h2><i class="fas fa-star"></i> Benefícios da Participação</h2>
+    <ul>
+      <li><i class="fas fa-check-circle"></i> Melhoria no desempenho escolar</li>
+      <li><i class="fas fa-check-circle"></i> Fortalecimento da relação escola-família</li>
+      <li><i class="fas fa-check-circle"></i> Estímulo à responsabilidade e autonomia</li>
+      <li><i class="fas fa-check-circle"></i> Redução da evasão escolar</li>
+      <li><i class="fas fa-check-circle"></i> Desenvolvimento de valores e cidadania</li>
+    </ul>
+  </section>
+
+  <section id="participar">
+    <h2><i class="fas fa-hand-paper"></i> Participe Connosco!</h2>
+    <form id="formulario">
+      <input type="text" id="nome" placeholder="Seu nome completo" required>
+      <input type="email" id="email" placeholder="Seu e-mail" required>
+      <button type="submit">Receber Guia</button>
+    </form>
+    <div id="mensagem"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Educar Juntos. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

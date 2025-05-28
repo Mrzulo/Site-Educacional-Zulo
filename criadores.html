@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sobre os Criadores | Educar Juntos</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+    <h1>📚 Educar Juntos</h1>
+    <button id="menu-toggle"><i class="fas fa-bars"></i></button>
+    <nav id="menu">
+      <a href="index.html">Início</a>
+      <a href="index.html#sobre">Sobre</a>
+      <a href="index.html#beneficios">Benefícios</a>
+      <a href="index.html#participar">Participe</a>
+      <a href="criadores.html">Criadores</a>
+    </nav>
+  </header>
+
+  <section id="criadores" style="animation: fadein 1.5s ease;">
+    <h2><i class="fas fa-users"></i> Sobre os Criadores</h2>
+    <p><i class="fas fa-book-reader"></i> Esta página foi desenvolvida com fins exclusivamente educativos, como parte de uma iniciativa para apoiar os <strong>encarregados de educação</strong> no processo de ensino e aprendizagem dos seus educandos.</p>
+
+    <p><i class="fas fa-lightbulb"></i> O projeto <strong>Educar Juntos</strong> nasceu da preocupação em fortalecer a relação entre a família e a escola, promovendo o acompanhamento e envolvimento ativo dos encarregados de educação na vida escolar dos seus filhos.</p>
+
+    <p><i class="fas fa-heart"></i> Aqui, disponibilizamos informações, benefícios e boas práticas para ajudar as famílias a adotarem métodos de acompanhamento escolar, motivação e orientação em casa, criando um ambiente favorável ao aprendizado e ao desenvolvimento pessoal e social dos estudantes.</p>
+
+    <p><i class="fas fa-hands-helping"></i> Esta página foi idealizada e desenvolvida por entusiastas da educação, com o objetivo de contribuir para uma sociedade mais consciente e participativa na formação das novas gerações.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Educar Juntos. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    // Menu hamburguer
+    document.getElementById("menu-toggle")?.addEventListener("click", function() {
+      const menu = document.getElementById("menu");
+      menu.classList.toggle("show");
+    });
+  </script>
+</body>
+</html>
